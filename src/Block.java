@@ -7,6 +7,47 @@ public class Block extends Rectangle {
     private int height;
     private Image pic;
 
+    public int getx() {
+        return x;
+    }
+
+    public void setX(int x) {
+        this.x = x;
+    }
+
+
+    public int gety() {
+        return y;
+    }
+
+    public void setY(int y) {
+        this.y = y;
+    }
+
+    public int getWeight() {
+        return weight;
+    }
+
+    public void setWeight(int weight) {
+        this.weight = weight;
+    }
+
+    public int getheight() {
+        return height;
+    }
+
+    public void setHeight(int height) {
+        this.height = height;
+    }
+
+    public Image getPic() {
+        return pic;
+    }
+
+    public void setPic(Image pic) {
+        this.pic = pic;
+    }
+
     public Block(int x, int y, int width, int height, String stringOfImage
     ) {
         this.x = x;
